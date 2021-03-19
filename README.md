@@ -12,11 +12,11 @@ TODO: Write a project description
   - [Roadmap](#roadmap)
 
 ## Installation
-Use the Gerber folder to realise the Arduino Shield.
-Once you have it use the datasheet scheatics to solder all the component in place.
-Once the shield is complete plug it onto your Arduino Uno.
-Transfer the program into the arduino.
-Then you're good to go, you can start measuring with your sensor.
+Use the Gerber folder to realise the Arduino Shield.  
+Once you have it use the datasheet scheatics to solder all the component in place.  
+Once the shield is complete plug it onto your Arduino Uno.  
+Transfer the program into the arduino.  
+Then you're good to go, you can start measuring with your sensor.  
 
 ## Usage
 
@@ -42,9 +42,9 @@ Then you're good to go, you can start measuring with your sensor.
 
 
 ## Credits
-Boulard Tanguy\n
-Bourdon Léo\n
-Tarade Manon\n
+Boulard Tanguy  
+Bourdon Léo  
+Tarade Manon  
 
 ## Roadmap
   - [x] things
