@@ -1,5 +1,5 @@
 # Projet Capteur  
-TODO: Write a project description
+This project is a Master's degree project at INSA - Toulouse.
 
   - [Installation](#installation)
   - [Usage](#usage)
@@ -26,27 +26,27 @@ also known as "Etalon 2 points". Once in this menu you have to press the roto en
 then twice to calibrate the resistance for two known deflections. Use the roto encoder to define the deflection. Once the calibration is done, you can check the results in the calibration menu, also known as "Menu Calibration".
 
 ## Arduino Code
-
-
+All the Arduino code is available in the GitHub "Projet" folder, all of it is commented and can be modified as wanted to.
 
 ## Shield
-
-
+All the details relative to the shield are available in the "Shield Uno" folder and the "Gerber" folder, it can be modified as wanted to by using Kicad.
 
 ## APK
-
-
+The APK was made using MIT AppInventor, you will find the APK file in the Master folder of the GitHub as well as the .aia. You can import the .aia to MIT AppInventor to modify it.
 
 ## Datasheet
-
-
+All the details concerning the sensor is available in the datasheet, it's available in .pdf and in .xlsx .
 
 ## Credits
-Boulard Tanguy  
-Bourdon Léo  
-Tarade Manon  
+BOULARD Tanguy  
+BOURDON Léo  
+TARADE Manon  
 
 ## Roadmap
-  - [x] things
-  - [ ] Code arduino banc de test
-  - [ ] Make the sensor reliable
+  - [x] Realize the shield
+  - [x] Realize a first version of the Arduino Code
+  - [x] Realize the APK
+  - [x] Create a datasheet of the sensor
+  - [x] Add a 2 points calibration menu in the Arduino Code
+  - [ ] Add a Test Bench menu on the Arduino
+  - [ ] Make the sensor more reliable
