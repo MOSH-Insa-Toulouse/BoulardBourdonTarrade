@@ -40,7 +40,7 @@ All the details concerning the sensor is available in the datasheet, it's availa
 ## Credits
 BOULARD Tanguy  
 BOURDON Léo  
-TARADE Manon  
+TARRADE Manon  
 
 ## Roadmap
   - [x] Realize the shield
