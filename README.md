@@ -23,6 +23,6 @@ Tarade Manon
 ## License
 TODO: Write license
 ## Roadmap
-  - [v] things
+  - [x] things
   - [ ] things
   - [ ] things
