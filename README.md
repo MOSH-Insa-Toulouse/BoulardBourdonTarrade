@@ -1,7 +1,11 @@
 # Projet Capteur  
 TODO: Write a project description
 ## Installation
-TODO: Describe the installation process
+Use the Gerber folder to realise the Arduino Shield
+Once you have it use the datasheet scheatics to solder all the component in place
+Once the shield is complete plug it onto your Arduino Uno
+Transfer the program into the arduino 
+Then you're good to go, you can start measuring with your sensor
 ## Usage
 TODO: Write usage instructions
 ## Contributing
@@ -13,10 +17,12 @@ TODO: Write usage instructions
 ## History
 TODO: Write history
 ## Credits
-TODO: Write credits
+Boulard Tanguy
+Bourdon Léo
+Tarade Manon
 ## License
 TODO: Write license
 ## Roadmap
-  - [ ] things
+  - [v] things
   - [ ] things
   - [ ] things
