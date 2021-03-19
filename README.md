@@ -20,6 +20,10 @@ TODO: Write a project description
 
 ## Usage
 
+The Arduino is able to measure the tension and the resistance of your sensor as is, 
+but if you want to measure the deflection you will need to use the 2 points calibration menu,
+also known as "Etalon 2 points". Once in this menu you have to press the roto encoder's button once to calibrate the resistance at rest of your sensor, 
+then twice to calibrate the resistance for two known deflections. Use the roto encoder to define the deflection. Once the calibration is done, you can check the results in the calibration menu, also known as "Menu Calibration".
 
 ## Arduino Code
 
