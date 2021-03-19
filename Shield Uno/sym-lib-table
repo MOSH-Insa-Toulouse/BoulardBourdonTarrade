@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "ltc 1050")(type Legacy)(uri "${KIPRJMOD}/ltc 1050.lib")(options "")(descr ""))
+  (lib (name HC05)(type Legacy)(uri ${KIPRJMOD}/HC05.lib)(options "")(descr ""))
+  (lib (name "OLDE 091")(type Legacy)(uri "${KIPRJMOD}/OLDE 091.lib")(options "")(descr ""))
+  (lib (name Encodeur)(type Legacy)(uri ${KIPRJMOD}/Encodeur.lib)(options "")(descr ""))
+  (lib (name Shield-Uno-rescue)(type Legacy)(uri "${KIPRJMOD}/Shield Uno-rescue.lib")(options "")(descr ""))
+  (lib (name "OLED 091")(type Legacy)(uri "${KIPRJMOD}/OLED 091.lib")(options "")(descr ""))
+)
