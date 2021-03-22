@@ -24,7 +24,7 @@ This project is a research project submitted in partial fulfilment of the requir
 
 The Arduino Uno is able to measure the tension and the resistance of your sensor as is. 
 
-However, if you want to measure electrical resistances while deflecting the sensor, you will need to use the 2 points calibration menu, named "Etalon 2 points". 
+However, if you want to measure the deflection of the sensor, you will need to use the 2 points calibration menu, named "Etalon 2 points". 
 First, simply straighten the sensor and press the rotary encoder once. This will calibrate the resistance at the sensor's rest position (R0). 
 Afterwards, rotate the same encoder to a chosen angle of deflection, before applying said angle onto the sensor. Once applied, press the encoder once. Repeat this step and press the encoder again to finalise the calibration. 
 
@@ -40,7 +40,7 @@ All the details related to the shield are available in the "Shield Uno" and the 
 
 ## APK
 
-The mobile application, defined by its extension .apk, was created by using the tools on MIT's AppInventor website. If necessary, the application can be modified using this same tool. However, to do so, you will need the .aia file used to create the application. Both the .apk and .aia files can be found in the Master level of the GitHub.
+The mobile application, defined by its extension .apk, was created using the tools on MIT's AppInventor website. If necessary, the application can be modified using this same tool. However, to do so, you will need the .aia file used to create the application. Both the .apk and .aia files can be found in the Master level of the GitHub.
 
 ## Datasheet
 
