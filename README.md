@@ -18,7 +18,7 @@ This project is a research project submitted in partial fulfilment of the requir
   * When the shield is completed, plug it onto an Arduino Uno.  
   * Transfer the program, found in Project in the master level, into the Arduino.
   * You are then good to go! You can now start measuring different electrical resistances with your sensor. 
-  * In addition to displaying the datas onto the LCD screen, you can also choose to display them on the Serial Plotter of the Arduino, or you can download our mobile    phone app (see section APK). 
+  * In addition to displaying the datas onto the OLED screen, you can also choose to display them on the Serial Plotter of the Arduino, or you can download our mobile    phone app (see section APK). 
 
 ## Usage
 
