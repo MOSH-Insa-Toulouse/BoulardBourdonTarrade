@@ -125,7 +125,7 @@ void loop() {
   }else{
     resistance = -1;
   }
-  mesure = (float)((float)((resistance-R0)/R0)*100.0 * sensi) + offset;
+  mesure = (float)(resistance * sensi) + offset;
 
   //We send the value to the computer
   if(Serial.available()){Serial.println(resistance);}
@@ -142,9 +142,14 @@ void loop() {
     //if the message read is "mesure" it means the phone is waiting for the resistance's value
     String test = (String)textBluetooth;
     test.trim();
+    Serial.println(test);
     if(test == "mesure"){
       //We send the resistance's value to the bluetooth module
       mySerial.print(resistance);
+    }
+    if(test == "R0"){
+      //We send the R0's value to the bluetooth module
+      mySerial.print(R0);
     }
   }
 
@@ -175,8 +180,8 @@ void loop() {
           mode = 5;
           etalonnage2Points = 0;
           //Once the calibration is done we calculate the slope and the offset
-          sensi = ((((mesurePoint2 - mesurePoint1)/R0)*100.0)/(courburePoint2 - courburePoint1));
-          offset = (mesurePoint1 - (sensi * courburePoint1/R0));
+          sensi = ((mesurePoint2 - mesurePoint1)/(courburePoint2 - courburePoint1));
+          offset = (mesurePoint1 - (sensi * courburePoint1));
           selection = 1;
         }
       }
