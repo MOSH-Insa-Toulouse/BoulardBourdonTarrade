@@ -1,5 +1,6 @@
 # Projet Capteur  
-This project is a Master's degree project at INSA - Toulouse.
+
+This project is a research project submitted in partial fulfilment of the requirement for the award of the Physics Engineering's Degree at INSA - Toulouse.
 
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,41 +13,51 @@ This project is a Master's degree project at INSA - Toulouse.
 
 ## Installation
 
-  * Use the Gerber folder to realise the Arduino Shield.  
-  * Once you have it use the datasheet scheatics to solder all the component in place.  
-  * Once the shield is complete plug it onto your Arduino Uno.  
-  * Transfer the program into the arduino.  
-  * Then you're good to go, you can start measuring with your sensor.  
+  * Use the Gerber folder to create the Arduino Shield.  
+  * Once created, use the datasheet schematics to solder all the components onto the shield.  
+  * When the shield is completed, plug it onto an Arduino Uno.  
+  * Transfer the program, found in Project in the master level, into the Arduino.
+  * You are then good to go! You can now start measuring different electrical resistances with your sensor. 
+  * In addition to displaying the datas onto the OLED screen, you can also choose to display them on the Serial Plotter of the Arduino, or you can download our mobile    phone app (see section APK). 
 
 ## Usage
 
-The Arduino is able to measure the tension and the resistance of your sensor as is, 
-but if you want to measure the deflection you will need to use the 2 points calibration menu,
-also known as "Etalon 2 points". Once in this menu you have to press the roto encoder's button once to calibrate the resistance at rest of your sensor, 
-then twice to calibrate the resistance for two known deflections. Use the roto encoder to define the deflection. Once the calibration is done, you can check the results in the calibration menu, also known as "Menu Calibration".
+The Arduino Uno is able to measure the tension and the resistance of your sensor as is. 
+
+However, if you want to measure the deflection of the sensor, you will need to use the 2 points calibration menu, named "Etalon 2 points". 
+First, simply straighten the sensor and press the rotary encoder once. This will calibrate the resistance at the sensor's rest position (R0). 
+Afterwards, rotate the same encoder to a chosen angle of deflection, before applying said angle onto the sensor. Once applied, press the encoder once. Repeat this step and press the encoder again to finalise the calibration. 
+
+After completing the calibration, all calibration values (R0, slope and offset) can be found in the menu entitled "Menu Calibration".
 
 ## Arduino Code
-All the Arduino code is available in the GitHub "Projet" folder, all of it is commented and can be modified as wanted to.
+
+The full Arduino code is available in the GitHub "Projet" folder, it is entirely commented and can be modified at will.
 
 ## Shield
-All the details relative to the shield are available in the "Shield Uno" folder and the "Gerber" folder, it can be modified as wanted to by using Kicad.
+
+All the details related to the shield are available in the "Shield Uno" and the "Gerber" folders, which can be modified at will by using the electronic design automation software called KiCad.
 
 ## APK
-The APK was made using MIT AppInventor, you will find the APK file in the Master folder of the GitHub as well as the .aia. You can import the .aia to MIT AppInventor to modify it.
+
+The mobile application, defined by its extension .apk, was created using the tools on MIT's AppInventor website. If necessary, the application can be modified using this same tool. However, to do so, you will need the .aia file used to create the application. Both the .apk and .aia files can be found in the Master level of the GitHub.
 
 ## Datasheet
-All the details concerning the sensor is available in the datasheet, it's available in .pdf and in .xlsx .
 
-## Credits
+All the details concerning the sensor is available in our datasheet, which is composed of a primary pdf file and a complementary Excel sheet (.xlsx).
+
+## Created by
+
 BOULARD Tanguy  
 BOURDON Léo  
 TARRADE Manon  
 
 ## Roadmap
-  - [x] Realize the shield
-  - [x] Realize a first version of the Arduino Code
-  - [x] Realize the APK
-  - [x] Create a datasheet of the sensor
+
+  - [x] Build the shield
+  - [x] Program a first version of the Arduino Code
+  - [x] Create the mobile application which displays and saves the datas measured by the sensor
+  - [x] Create the datasheet of the sensor
   - [x] Add a 2 points calibration menu in the Arduino Code
   - [ ] Add a Test Bench menu on the Arduino
   - [ ] Make the sensor more reliable
