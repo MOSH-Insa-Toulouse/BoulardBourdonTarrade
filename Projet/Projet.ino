@@ -151,12 +151,6 @@ void loop() {
       //We send the R0's value to the bluetooth module
       mySerial.print(R0);
     }
-    Serial.println("==============");
-    Serial.print("R :");
-    Serial.println(resistance);
-    Serial.print("R0 :");
-    Serial.println(R0);
-    Serial.println("=============");
   }
 
   //We uptdate the button state
