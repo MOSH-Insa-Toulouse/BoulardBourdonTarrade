@@ -1,6 +1,6 @@
 # Projet Capteur  
 
-This project is a research project submitted in partial fulfilment of the requirement for the award of the Physics Engineering's Degree at INSA - Toulouse.
+This project is a Master's degree project at INSA - Toulouse.
 
   - [Installation](#installation)
   - [Usage](#usage)
